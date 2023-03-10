@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Receitas</title>
+        <link rel="stylesheet" href="./style/receita.css">
+
+    </head>
+    <body onload="listar()">
+        <div class="titulo">
+            <h2>Lista De Receitas</h2>
+            <button onclick="sair()" id="btnsair">Voltar</button>
+        </div>
+        <div class="centro">
+            <div class="lista_receita">
+                <table>
+                    <thead>
+                        <tr>
+                            <th><u>Nome</u></th>
+                            <th><u>Ingredientes</u></th>
+                            <th><u>Modo de fazer</u></th>
+                            <th><u>Nº de porções</u></th>
+                            <th><u>Deletar</u></th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        
+                    </tbody>
+                    
+                </table>
+
+            </div>
+            
+            <div class="conteudo"></div>
+        </div>
+    </body>
+    <script src="./listar.js"></script>
+</html>
